@@ -1,0 +1,121 @@
+html {
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+    background-image: url('./images/sanctum-bg.jpg');
+}
+
+#page {
+    width: 1000px;
+    height: max-content;
+    padding: 0 auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+#page_layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0.5;
+}
+
+.aligncenter {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* .screen {
+    display: inline-block;
+    width: 200px;
+}
+
+.screen+p {
+    width: 200px;
+    text-align: center;
+    display: block;
+} */
+.screen {
+    width: 430px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+  }
+  .screen span {
+    display: block;
+    /* line-height: normal; */
+  }
+
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/century_gothic.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/century_gothic.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/century_gothic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/century_gothic.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/century_gothic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/century_gothic.svg#century_gothic') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Century Gothic Gras';
+    src: url('../fonts/century_gothic_gras.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/century_gothic_gras.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/century_gothic_gras.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/century_gothic_gras.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/century_gothic_gras.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/century_gothic_gras.svg#century_gothic_gras') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Century Gothic Gras Italique';
+    src: url('../fonts/century_gothic_gras_italique.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/century_gothic_gras_italique.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/century_gothic_gras_italique.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/century_gothic_gras_italique.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/century_gothic_gras_italique.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/century_gothic_gras_italique.svg#century_gothic_gras_italique') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Century Gothic Italique';
+    src: url('../fonts/century_gothic_italique.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/century_gothic_italique.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/century_gothic_italique.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/century_gothic_italique.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/century_gothic_italique.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/century_gothic_italique.svg#century_gothic_italique') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
