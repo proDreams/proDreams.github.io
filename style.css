@@ -34,28 +34,40 @@ html {
     margin-right: 20px;
 }
 
-/* .screen {
-    display: inline-block;
-    width: 200px;
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
+.screen-image {
+    max-width: 80%;
+}
+
+.screen span {
+    padding-top: 5px;
+    color: #bababa;
+}
+
+/*
 .screen+p {
     width: 200px;
     text-align: center;
     display: block;
 } */
-.screen {
+
+/* .screen {
     width: 430px;
     height: 300px;
     padding: 20px;
     text-align: center;
     display: inline-block;
-  }
-  .screen span {
-    display: block;
-    /* line-height: normal; */
-  }
-
+} */
+  
 #content {
     padding: 50px 30px;
 }
