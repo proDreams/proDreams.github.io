@@ -34,6 +34,11 @@ html {
     margin-right: 20px;
 }
 
+.screen-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .screen {
     display: flex;
     flex-direction: column;
@@ -45,12 +50,13 @@ html {
 }
 
 .screen-image {
-    max-width: 80%;
+    max-height: 80%;
 }
 
 .screen span {
     padding-top: 5px;
     color: #bababa;
+    text-align: center;
 }
 
 /*
