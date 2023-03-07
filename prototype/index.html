@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    <header class="shadow bg-primary">
+    <header class="shadow bg-primary ">
         <div class="container">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Заголовок сайта</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,8 +45,15 @@
                                     <button class="btn btn-outline-success" type="submit">Поиск</button>
                                 </form>
                             </li>
+
                         </ul>
-                        <ul class="navbar-nav navbar-nav my-me-5r mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item mt-2">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="btnSwitch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Тема</label>
+                                </div>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">Тут-будет-профиль</a>
@@ -65,16 +72,13 @@
             </nav>
         </div>
     </header>
-    <Div class="col-auto">
 
-        <button class="btn btn-dark shadow" id="btnSwitch">Toggle Mode</button>
-    </Div>
     <section class="categories">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                        <h2 class="mb-3 color1">Категории</h2>
+                        <h2 class="mb-3">Категории</h2>
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <h5><a href="/prototype/">Первая категория</a></h5>
                         </div>
@@ -109,7 +113,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="row">
-                        <h2 class="mb-3 color1">Ранее открытое</h2>
+                        <h2 class="mb-3">Ранее открытое</h2>
                         <div class="col-12">
                             <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quidem nesciunt
                                 voluptates quam consequuntur magni alias ullam suscipit mollitia dicta sed, recusandae,
@@ -127,7 +131,7 @@
     <section class="recently">
         <div class="container">
             <div class="row">
-                <h2 class="mb-3 color1">Последние обновлённые</h2>
+                <h2 class="mb-3">Последние обновлённые</h2>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <h5>Первый материал</h5>
                 </div>
@@ -147,9 +151,9 @@
 
     <footer class="footer shadow bg-primary">
         <div class="container ">
-            <div class="p-3">
+            <div class="p-3 text-white">
                 2023г.
-                <a class="text-light" href="https://github.com/proDreams/">proDream</a>
+                <a href="https://github.com/proDreams/">proDream</a>
             </div>
         </div>
     </footer>
