@@ -184,5 +184,10 @@
     content: url(../svg/sun-fill.svg);
     width: 18px;
     height: 18px;
-    margin-left: 3px;
+    margin-left: 5px;
+    filter: invert(1);
+}
+
+.form-switch .form-check-input {
+    margin: 0;
 }
