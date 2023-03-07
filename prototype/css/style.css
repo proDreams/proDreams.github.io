@@ -160,3 +160,24 @@
     background-color: var(--bs-primary);
     margin: 15px auto 30px;
 }
+
+.form-check-label {
+    content: url("../svg/sun-fill.svg");
+    width: 18px;
+    height: 24px;
+    color: white;
+}
+
+.form-check-input::before {
+    content: url("../svg/moon-stars-fill.svg");
+    width: 18px;
+    height: 24px;
+    margin-left: -25px;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
