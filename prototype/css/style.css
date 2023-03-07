@@ -161,23 +161,28 @@
     margin: 15px auto 30px;
 }
 
-.form-check-label {
-    content: url("../svg/sun-fill.svg");
-    width: 18px;
-    height: 24px;
-    color: white;
-}
-
-.form-check-input::before {
-    content: url("../svg/moon-stars-fill.svg");
-    width: 18px;
-    height: 24px;
-    margin-left: -25px;
-    color: white;
+.form-check-input {
+    margin: 0;
 }
 
 .icons {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.icons::before {
+    content: url(../svg/moon-stars-fill.svg);
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+.form-check-label {
+    content: url(../svg/sun-fill.svg);
+    width: 18px;
+    height: 18px;
+    margin-left: 3px;
 }
