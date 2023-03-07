@@ -49,12 +49,12 @@ html {
     padding: 20px;
     text-align: center;
     display: inline-block;
-  }
-  .screen span {
+}
+
+.screen span {
     display: block;
     /* line-height: normal; */
-  }
-
+}
 
 @font-face {
     font-family: 'Century Gothic';
