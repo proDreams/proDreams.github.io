@@ -3,13 +3,13 @@
 }
 
 .color1 {
-    color: var(--bs-primary)
+    color: var(--bs-primary-text)
 }
 
 .categories h5,
 .recently h5 {
     padding: 25px;
-    border: 3px solid var(--bs-primary);
+    border: 3px solid var(--bs-gray);
 }
 
 .categories h2 {
@@ -22,3 +22,4 @@
     background-color: var(--bs-primary);
     margin: 15px auto 30px;
 }
+
