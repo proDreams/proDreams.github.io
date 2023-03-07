@@ -150,7 +150,7 @@
     border: 3px solid var(--bs-gray);
 }
 
-.categories h2 {
+.categories h2, .post h2, .breadcrumb {
     padding-top: 15px;
 }
 
@@ -190,4 +190,9 @@
 
 .form-switch .form-check-input {
     margin: 0;
+}
+
+.op-reg u {
+    color: var(--bs-white);
+    background-color: var(--bs-gray);
 }
