@@ -20,6 +20,7 @@ html {
     /* left: 0; */
     background: rgba(255, 255, 255, 0.3);
     opacity: 0.5;
+    z-index: -1;
 }
 
 .aligncenter {
@@ -33,27 +34,57 @@ html {
     margin-right: 20px;
 }
 
-/* .screen {
-    display: inline-block;
-    width: 200px;
+.screen-container {
+    display: flex;
+    flex-direction: row;
 }
 
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.screen-image {
+    max-height: 75%;
+    width: 100%;
+}
+
+.screen span {
+    padding-top: 5px;
+    color: #bababa;
+    text-align: center;
+}
+
+/*
 .screen+p {
     width: 200px;
     text-align: center;
     display: block;
 } */
-.screen {
+
+/* .screen {
     width: 430px;
     height: 300px;
     padding: 20px;
     text-align: center;
     display: inline-block;
+} */
+  
+#content {
+    padding: 50px 30px;
 }
 
-.screen span {
-    display: block;
-    /* line-height: normal; */
+h1 {
+    padding: 0 0 20px;
+}
+
+h2 {
+    padding: 40px 0 0;
 }
 
 @font-face {
